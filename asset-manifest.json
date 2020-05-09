@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Besobod/VMeste/static/css/main.981f7211.chunk.css",
-    "main.js": "/Besobod/VMeste/static/js/main.5c288842.chunk.js",
-    "main.js.map": "/Besobod/VMeste/static/js/main.5c288842.chunk.js.map",
-    "runtime-main.js": "/Besobod/VMeste/static/js/runtime-main.3df59ce0.js",
-    "runtime-main.js.map": "/Besobod/VMeste/static/js/runtime-main.3df59ce0.js.map",
-    "static/css/2.86df01db.chunk.css": "/Besobod/VMeste/static/css/2.86df01db.chunk.css",
-    "static/js/2.ccbdd060.chunk.js": "/Besobod/VMeste/static/js/2.ccbdd060.chunk.js",
-    "static/js/2.ccbdd060.chunk.js.map": "/Besobod/VMeste/static/js/2.ccbdd060.chunk.js.map",
-    "index.html": "/Besobod/VMeste/index.html",
-    "precache-manifest.5e8425fd05e05ce3367a82aac2c818d7.js": "/Besobod/VMeste/precache-manifest.5e8425fd05e05ce3367a82aac2c818d7.js",
-    "service-worker.js": "/Besobod/VMeste/service-worker.js",
-    "static/css/2.86df01db.chunk.css.map": "/Besobod/VMeste/static/css/2.86df01db.chunk.css.map",
-    "static/css/main.981f7211.chunk.css.map": "/Besobod/VMeste/static/css/main.981f7211.chunk.css.map",
-    "static/js/2.ccbdd060.chunk.js.LICENSE.txt": "/Besobod/VMeste/static/js/2.ccbdd060.chunk.js.LICENSE.txt",
-    "static/media/persik.png": "/Besobod/VMeste/static/media/persik.4e1ec840.png"
+    "main.css": "/VMeste/static/css/main.981f7211.chunk.css",
+    "main.js": "/VMeste/static/js/main.12bd431a.chunk.js",
+    "main.js.map": "/VMeste/static/js/main.12bd431a.chunk.js.map",
+    "runtime-main.js": "/VMeste/static/js/runtime-main.7b170afb.js",
+    "runtime-main.js.map": "/VMeste/static/js/runtime-main.7b170afb.js.map",
+    "static/css/2.86df01db.chunk.css": "/VMeste/static/css/2.86df01db.chunk.css",
+    "static/js/2.fe65863a.chunk.js": "/VMeste/static/js/2.fe65863a.chunk.js",
+    "static/js/2.fe65863a.chunk.js.map": "/VMeste/static/js/2.fe65863a.chunk.js.map",
+    "index.html": "/VMeste/index.html",
+    "precache-manifest.12cd7357da46ee7b884d209c949a469b.js": "/VMeste/precache-manifest.12cd7357da46ee7b884d209c949a469b.js",
+    "service-worker.js": "/VMeste/service-worker.js",
+    "static/css/2.86df01db.chunk.css.map": "/VMeste/static/css/2.86df01db.chunk.css.map",
+    "static/css/main.981f7211.chunk.css.map": "/VMeste/static/css/main.981f7211.chunk.css.map",
+    "static/js/2.fe65863a.chunk.js.LICENSE.txt": "/VMeste/static/js/2.fe65863a.chunk.js.LICENSE.txt",
+    "static/media/persik.png": "/VMeste/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3df59ce0.js",
+    "static/js/runtime-main.7b170afb.js",
     "static/css/2.86df01db.chunk.css",
-    "static/js/2.ccbdd060.chunk.js",
+    "static/js/2.fe65863a.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.5c288842.chunk.js"
+    "static/js/main.12bd431a.chunk.js"
   ]
 }
