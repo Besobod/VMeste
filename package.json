@@ -2,7 +2,7 @@
   "name": "Vmeste",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/Besobod/VMeste/",
+  "homepage": "https://Besobod.github.io/VMeste/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
@@ -15,10 +15,12 @@
   "license": "MIT",
   "devDependencies": {
     "cross-env": "^5.2.0",
+    "gh-pages": "^2.2.0",
     "react-hot-loader": "^4.9.0",
     "react-scripts": "^3.4.1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.9.14",
     "@vkontakte/icons": "^1.18.2",
     "@vkontakte/vk-bridge": "^2.2.0",
     "@vkontakte/vk-miniapps-deploy": "0.0.17",
@@ -32,5 +34,17 @@
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
