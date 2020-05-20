@@ -7,10 +7,15 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import FixedLayout from '@vkontakte/vkui/dist/components/FixedLayout/FixedLayout';
+import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
+import Icon24Notification from '@vkontakte/icons/dist/24/notification';
+import Icon24Sort from '@vkontakte/icons/dist/24/sort';
+import Icon24Place from '@vkontakte/icons/dist/24/place';
 
 const Home = ({ id, go, fetchedUser }) => (
 	<Panel id={id}>
-		<PanelHeader>ВМесте</PanelHeader>
+		<PanelHeader>Vmeste</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Bridge">
 			<Cell
@@ -20,18 +25,18 @@ const Home = ({ id, go, fetchedUser }) => (
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
 		</Group>}
-
-		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="filterPage">
-					Filter Button
+		 <Group title="bottomInterface">
+                <FixedLayout vertical="bottom">
+                <Separator wide />
+			    <Div style={{display: 'flex'}}>
+				<Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Sort/>} onClick={go} data-to="filterPage">
 				</Button>
-			</Div>
-			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="news">
-					News
+                     <Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Place/>}>  
 				</Button>
-			</Div>
+				<Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Notification/>} onClick={go} data-to="news">
+				</Button>
+			    </Div>
+               </FixedLayout> 
 		</Group>
 	</Panel>
 );
@@ -50,3 +55,4 @@ Home.propTypes = {
 };
 
 export default Home;
+

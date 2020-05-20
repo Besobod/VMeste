@@ -23,7 +23,8 @@ const FilterPage = props => (
 		>
 			FilterPage
 		</PanelHeader>
-		<table align="left">
+		<table align="left" width="100%">
+		<caption>Сортировка по записям</caption>
 		<tr>
 			<td><FormControlLabel control={<Checkbox checked={Friend} name="Friend" />} label="С записями друзей" /></td>
 			<td><FormControlLabel control={<Checkbox checked={Voice} name="Voice" />} label="С голосовыми записями" /></td>
@@ -33,7 +34,8 @@ const FilterPage = props => (
 			<td><FormControlLabel control={<Checkbox checked={Music} name="Music" />} label="С музыкой" /></td>
 		</tr>
 		</table>
-		<table align="left">
+		<table align="left" width="100%">
+		<caption>Сортировка по местам</caption>
 		<tr>
 			<td><FormControlLabel control={<Checkbox checked={All} name="All" />} label="Всё" /></td>
 			<td><FormControlLabel control={<Checkbox checked={Parks} name="Parks" />} label="Парки" /></td>
