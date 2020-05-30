@@ -12,8 +12,20 @@ import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon24Notification from '@vkontakte/icons/dist/24/notification';
 import Icon24Sort from '@vkontakte/icons/dist/24/sort';
 import Icon24Place from '@vkontakte/icons/dist/24/place';
+import ymaps from 'ymaps';
+
+var mapComponent = ymaps
+  .load()
+  .then(maps => {
+    const map = new maps.Map('mapContainer', {
+      center: [-8.369326, 115.166023],
+      zoom: 7
+    });
+  })
+  .catch(error => console.log('Failed to load Yandex Maps', error));
 
 const Home = ({ id, go, fetchedUser }) => (
+	
 	<Panel id={id}>
 		<PanelHeader>Vmeste</PanelHeader>
 		{fetchedUser &&
@@ -25,6 +37,11 @@ const Home = ({ id, go, fetchedUser }) => (
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
 		</Group>}
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=7b851542-03a0-4c2e-9af7-2faa1810fe68&lang=ru_RU"
+			type="text/javascript" />
+		<div id="mapContainer" width='100px' height='100px'>
+
+		</div>
 		 <Group title="bottomInterface">
                 <FixedLayout vertical="bottom">
                 <Separator wide />
