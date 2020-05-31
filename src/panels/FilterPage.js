@@ -13,7 +13,7 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 const osName = platform();
 
 const { Friend, Photo, Voice,Music, Parks, Restaurants, Bars, Cafes, Cinemas } = false;
-const All =true;
+var All =true;
 const FilterPage = props => (
 	<Panel id={props.id}>
 		<PanelHeader

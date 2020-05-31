@@ -12,45 +12,29 @@ import Separator from '@vkontakte/vkui/dist/components/Separator/Separator';
 import Icon24Notification from '@vkontakte/icons/dist/24/notification';
 import Icon24Sort from '@vkontakte/icons/dist/24/sort';
 import Icon24Place from '@vkontakte/icons/dist/24/place';
-import ymaps from 'ymaps';
-
-var mapComponent = ymaps
-  .load()
-  .then(maps => {
-    const map = new maps.Map('mapContainer', {
-      center: [-8.369326, 115.166023],
-      zoom: 7
-    });
-  })
-  .catch(error => console.log('Failed to load Yandex Maps', error));
+import mapExample from '../img/Вместе_31-05-2020_11-37-45.png'
 
 const Home = ({ id, go, fetchedUser }) => (
-	
 	<Panel id={id}>
 		<PanelHeader>Vmeste</PanelHeader>
 		{fetchedUser &&
 		<Group title="User Data Fetched with VK Bridge">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
+			<Cell before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
+				description={ fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
 			>
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
 		</Group>}
-		<script src="https://api-maps.yandex.ru/2.1/?apikey=7b851542-03a0-4c2e-9af7-2faa1810fe68&lang=ru_RU"
-			type="text/javascript" />
-		<div id="mapContainer" width='100px' height='100px'>
-
-		</div>
-		 <Group title="bottomInterface">
+		<img src ={mapExample} width="100%" height='100%' />
+		 <Group title="Navigation Example">
                 <FixedLayout vertical="bottom">
                 <Separator wide />
-			    <Div style={{display: 'flex'}}>
-				<Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Sort/>} onClick={go} data-to="filterPage">
+			    <Div style={{ background: '#597da3', display: 'flex' }}>
+				<Button size="l" stretched style={{ marginRight: 9, background: '#597da3' }} before={<Icon24Sort/>} onClick={go} data-to="filterPage">
 				</Button>
-                     <Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Place/>}>  
+                     <Button size="l" stretched style={{ marginRight: 9, background: '#597da3' }} before={<Icon24Place/>}>  
 				</Button>
-				<Button size="l" stretched style={{ marginRight: 8 }} mode="tertiary" before={<Icon24Notification/>} onClick={go} data-to="news">
+				<Button size="l" stretched style={{ marginRight: 9, background: '#597da3' }} before={<Icon24Notification/>} onClick={go} data-to="news">
 				</Button>
 			    </Div>
                </FixedLayout> 
@@ -72,4 +56,3 @@ Home.propTypes = {
 };
 
 export default Home;
-
