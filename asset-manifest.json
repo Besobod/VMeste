@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/VMeste/static/css/main.44538b61.chunk.css",
-    "main.js": "/VMeste/static/js/main.48b2e40c.chunk.js",
-    "main.js.map": "/VMeste/static/js/main.48b2e40c.chunk.js.map",
+    "main.js": "/VMeste/static/js/main.da0bee2b.chunk.js",
+    "main.js.map": "/VMeste/static/js/main.da0bee2b.chunk.js.map",
     "runtime-main.js": "/VMeste/static/js/runtime-main.7b170afb.js",
     "runtime-main.js.map": "/VMeste/static/js/runtime-main.7b170afb.js.map",
     "static/css/2.86df01db.chunk.css": "/VMeste/static/css/2.86df01db.chunk.css",
-    "static/js/2.ce89c7e8.chunk.js": "/VMeste/static/js/2.ce89c7e8.chunk.js",
-    "static/js/2.ce89c7e8.chunk.js.map": "/VMeste/static/js/2.ce89c7e8.chunk.js.map",
+    "static/js/2.e45c8e2a.chunk.js": "/VMeste/static/js/2.e45c8e2a.chunk.js",
+    "static/js/2.e45c8e2a.chunk.js.map": "/VMeste/static/js/2.e45c8e2a.chunk.js.map",
     "index.html": "/VMeste/index.html",
-    "precache-manifest.f30a3d926c23e5e2046bc21522207001.js": "/VMeste/precache-manifest.f30a3d926c23e5e2046bc21522207001.js",
+    "precache-manifest.a682e776eec4967e376e82de020e56fa.js": "/VMeste/precache-manifest.a682e776eec4967e376e82de020e56fa.js",
     "service-worker.js": "/VMeste/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/VMeste/static/css/2.86df01db.chunk.css.map",
     "static/css/main.44538b61.chunk.css.map": "/VMeste/static/css/main.44538b61.chunk.css.map",
-    "static/js/2.ce89c7e8.chunk.js.LICENSE.txt": "/VMeste/static/js/2.ce89c7e8.chunk.js.LICENSE.txt",
+    "static/js/2.e45c8e2a.chunk.js.LICENSE.txt": "/VMeste/static/js/2.e45c8e2a.chunk.js.LICENSE.txt",
     "static/media/first.png": "/VMeste/static/media/first.066eb111.png",
     "static/media/persik.png": "/VMeste/static/media/persik.4e1ec840.png",
     "static/media/second.png": "/VMeste/static/media/second.27060b9c.png",
-    "static/media/third.png": "/VMeste/static/media/third.1088a4ef.png"
+    "static/media/third.png": "/VMeste/static/media/third.1088a4ef.png",
+    "static/media/Вместе_31-05-2020_11-37-45.png": "/VMeste/static/media/Вместе_31-05-2020_11-37-45.4efade81.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7b170afb.js",
     "static/css/2.86df01db.chunk.css",
-    "static/js/2.ce89c7e8.chunk.js",
+    "static/js/2.e45c8e2a.chunk.js",
     "static/css/main.44538b61.chunk.css",
-    "static/js/main.48b2e40c.chunk.js"
+    "static/js/main.da0bee2b.chunk.js"
   ]
 }
