@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64f191f4c98d22d2e38de86cac3b1a77",
+    "revision": "7401a5efdcea79f699f7206e989a2c71",
     "url": "/VMeste/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMeste/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "c5ddcb4b477bb630b8fe",
+    "revision": "b1bdb73f1b298a10032a",
     "url": "/VMeste/static/css/main.44538b61.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMeste/static/js/2.1f39eb70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5ddcb4b477bb630b8fe",
-    "url": "/VMeste/static/js/main.48bb6fa2.chunk.js"
+    "revision": "b1bdb73f1b298a10032a",
+    "url": "/VMeste/static/js/main.460cee0f.chunk.js"
   },
   {
     "revision": "f37565cc5b1838662de9",
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VMeste/static/media/third.1088a4ef.png"
   },
   {
-    "revision": "4efade81989e3278a6ba51e46c56c882",
-    "url": "/VMeste/static/media/Вместе_31-05-2020_11-37-45.4efade81.png"
+    "revision": "1b8f4ebaa3078f290be098f126066c28",
+    "url": "/VMeste/static/media/Вместе_31-05-2020_11-37-45.1b8f4eba.png"
   }
 ]);
